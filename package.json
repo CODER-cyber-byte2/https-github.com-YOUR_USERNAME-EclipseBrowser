@@ -1,0 +1,20 @@
+{
+"name":"eclipsebrowser",
+"version":"1.0.0",
+"main":"electron/main.js",
+"scripts":{
+"start":"electron .",
+"dev":"vite",
+"build":"vite build"
+},
+"dependencies":{
+"electron":"latest",
+"react":"latest",
+"react-dom":"latest"
+},
+"devDependencies":{
+"typescript":"latest",
+"vite":"latest",
+"@vitejs/plugin-react":"latest"
+}
+}
